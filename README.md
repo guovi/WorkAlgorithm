@@ -1,2 +1,2 @@
 # WorkAlgorithm
-algorithm maybe used in our work
+algorithm maybe used in our work.
