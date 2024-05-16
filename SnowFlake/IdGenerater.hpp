@@ -23,7 +23,6 @@ constexpr std::int64_t START_POINT = 1714492800000ull;
 class Id_Generater final {
 public:
     static Id_Generater* get_instance(int t_node_id = 0, int t_sequence_id = 0) {
-        std::cout << "begining...." << std::endl;
         if (t_node_id < 0 || t_node_id > MAX_NODE_ID) {
             throw std::invalid_argument(std::string("NODE_ID不应小于0或大于") + std::to_string(MAX_NODE_ID));
         }
